@@ -1,0 +1,34 @@
+{
+  "name": "@youngjuning/module-1",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "youngjuning <youngjuning@aliyun.com>",
+  "homepage": "https://github.com/youngjuning/lerna-repo#readme",
+  "license": "MIT",
+  "main": "lib/module-1.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngjuning/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/youngjuning/lerna-repo/issues"
+  },
+  "dependencies": {
+    "dayjs": "^1.9.6",
+    "lodash": "^4.17.20",
+    "@youngjuning/module-2": "^0.0.0"
+  }
+}
