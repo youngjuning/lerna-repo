@@ -13,6 +13,9 @@
       ],
       "message": "chore(release): publish %s",
       "registry": "http://localhost:4873"
+    },
+    "version": {
+      "conventionalCommits": true
     }
   }
 }
