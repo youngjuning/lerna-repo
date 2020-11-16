@@ -1,5 +1,3 @@
-function module2() {
-  // TODO
-}
+function module2() {}
 
 export default module2
