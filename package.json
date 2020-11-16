@@ -9,7 +9,8 @@
     "b": "lerna bootstrap",
     "c": "lerna changed",
     "w": "yarn add --ignore-workspace-root-check --dev",
-    "p": "lerna publish"
+    "p": "lerna publish",
+    "r": "lerna run"
   },
   "devDependencies": {
     "lerna": "^3.22.1",

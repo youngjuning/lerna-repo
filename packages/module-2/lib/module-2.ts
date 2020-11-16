@@ -1,5 +1,5 @@
 function module2() {
-    // TODO
+  // TODO
 }
 
 export default module2
