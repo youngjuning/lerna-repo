@@ -27,6 +27,8 @@
     "url": "https://github.com/youngjuning/lerna-repo/issues"
   },
   "dependencies": {
-    "dayjs": "^1.9.6"
+    "axios": "^0.21.0",
+    "dayjs": "^1.9.6",
+    "lodash": "^4.17.20"
   }
 }
