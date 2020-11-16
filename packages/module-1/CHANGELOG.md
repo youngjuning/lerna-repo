@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-1@0.3.0...@youngjuning/module-1@0.3.1) (2020-11-16)
+
+
+### Bug Fixes
+
+* 修复目标不是一个模块的问题 ([87d96d5](https://github.com/youngjuning/lerna-repo/commit/87d96d59326e7a8983bd5ff9e33f80226ee0df72))
+
+
+
+
+
 # [0.3.0](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-1@0.2.1...@youngjuning/module-1@0.3.0) (2020-11-16)
 
 
