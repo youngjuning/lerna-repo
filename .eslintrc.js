@@ -1,6 +1,7 @@
 module.exports = {
   extends: [
     'airbnb-typescript',
+    'plugin:jest/recommended',
     'plugin:react-native/all',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
@@ -13,5 +14,9 @@ module.exports = {
   },
   env: {
     'react-native/react-native': true,
+    'jest/globals': true,
   },
-}
+  rules: {
+    '@typescript-eslint/no-var-requires': 0,
+  },
+};
