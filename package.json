@@ -5,12 +5,12 @@
     "packages/*"
   ],
   "scripts": {
-    "a": "lerna add",
-    "b": "lerna bootstrap",
-    "c": "lerna changed",
-    "w": "yarn add --ignore-workspace-root-check --dev",
-    "p": "lerna publish",
-    "r": "lerna run",
+    "publish": "echo \"Use `yarn publish-next` or `yarn publish-release` instead of `yarn run publish`\"",
+    "publish-canary": "lerna publish --canary --yes",
+    "publish-preminor": "lerna publish preminor --pre-dist-tag=next --preid=next --force-publish --allow-branch=master --message=\"chore(release): Publish next pre-minor\"",
+    "publish-next": "lerna publish prerelease --pre-dist-tag=next --preid=next --allow-branch=master --message=\"chore(release): Publish next\"",
+    "publish-rc": "lerna publish prerelease --pre-dist-tag=rc --preid=rc --message=\"chore(release): Publish rc\"",
+    "publish-release": "lerna publish",
     "commit": "git cz",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write packages/**/*/*.{js,jsx,ts,tsx}"
