@@ -1,6 +1,6 @@
 {
   "name": "@youngjuning/module-2",
-  "version": "3.1.0",
+  "version": "3.1.1-beta.3+b4c1b84",
   "description": "> TODO: description",
   "author": "youngjuning <youngjuning@aliyun.com>",
   "homepage": "https://github.com/youngjuning/lerna-repo#readme",
@@ -31,5 +31,5 @@
     "dayjs": "^1.9.6",
     "lodash": "^4.17.20"
   },
-  "gitHead": "886f946584d4f77a75d3f0321516475c32fdbcf5"
+  "gitHead": "b4c1b84adea9e5ba14113b54e38620c8825075fd"
 }
