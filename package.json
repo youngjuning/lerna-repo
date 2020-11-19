@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release:beta": "lerna publish --canary --yes --force-publish",
+    "release:beta": "lerna publish --canary --preid=beta --yes",
     "release:rc": "lerna publish prerelease --pre-dist-tag=rc --preid=rc --message=\"chore(release): Publish rc\"",
     "release:preminor": "lerna publish preminor --pre-dist-tag=next --preid=next --force-publish\"",
     "release:premajor": "lerna publish premajor --pre-dist-tag=next --preid=next --force-publish\"",
