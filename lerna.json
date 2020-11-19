@@ -11,7 +11,7 @@
     },
     "version": {
       "conventionalCommits": true,
-      "allowBranch": ["main"]
+      "allowBranch": ["main", "master"]
     }
   }
 }
