@@ -7,6 +7,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 **Note:** Version bump only for package @youngjuning/module-2
 
+## [3.0.1-next.1](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-2@3.0.1-next.0...@youngjuning/module-2@3.0.1-next.1) (2020-11-19)
+
+**Note:** Version bump only for package @youngjuning/module-2
+
 # [3.0.0](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-2@3.0.0-next.1...@youngjuning/module-2@3.0.0) (2020-11-19)
 
 **Note:** Version bump only for package @youngjuning/module-2
