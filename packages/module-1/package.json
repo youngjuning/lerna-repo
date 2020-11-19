@@ -1,6 +1,6 @@
 {
   "name": "@youngjuning/module-1",
-  "version": "2.0.1-rc.0",
+  "version": "2.1.0-next.0",
   "description": "> TODO: description",
   "author": "youngjuning <youngjuning@aliyun.com>",
   "homepage": "https://github.com/youngjuning/lerna-repo#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/youngjuning/lerna-repo/issues"
   },
   "dependencies": {
-    "@youngjuning/module-2": "^2.0.1-rc.0",
+    "@youngjuning/module-2": "^2.1.0-next.0",
     "axios": "^0.21.0",
     "dayjs": "^1.9.6",
     "lodash": "^4.17.20"
