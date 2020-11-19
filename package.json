@@ -5,10 +5,9 @@
     "packages/*"
   ],
   "scripts": {
-    "release:canary": "lerna publish --canary --pre-dist-tag=beta --preid=beta --yes",
-    "release:patch:pre": "lerna publish prepatch --pre-dist-tag=rc --preid=rc",
-    "release:minor:pre": "lerna publish preminor --pre-dist-tag=rc --preid=rc",
-    "release:major:pre": "lerna publish premajor --pre-dist-tag=rc --preid=rc",
+    "release:prepatch": "lerna publish prepatch --pre-dist-tag=rc --preid=rc",
+    "release:preminor": "lerna publish preminor --pre-dist-tag=rc --preid=rc",
+    "release:premajor": "lerna publish premajor --pre-dist-tag=rc --preid=rc",
     "release:patch": "lerna publish patch",
     "release:minor": "lerna publish minor",
     "release:major": "lerna publish major",
