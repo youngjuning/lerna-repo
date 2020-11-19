@@ -7,11 +7,9 @@
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish %s",
-      "registry": "http://localhost:4873"
-    },
-    "version": {
+      "registry": "http://localhost:4873",
       "conventionalCommits": true,
-      "allowBranch": ["main", "master"]
+      "allowBranch": ["main"]
     }
   }
 }
