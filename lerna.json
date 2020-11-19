@@ -6,12 +6,12 @@
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
-      "message": "chore(release): publish %s",
       "registry": "http://localhost:4873"
     },
     "version": {
       "conventionalCommits": true,
-      "allowBranch": ["main", "master"]
+      "allowBranch": ["main", "master"],
+      "message": "chore(release): publish"
     }
   }
 }

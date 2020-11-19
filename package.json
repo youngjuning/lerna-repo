@@ -5,12 +5,11 @@
     "packages/*"
   ],
   "scripts": {
-    "release": "lerna publish",
     "release:canary": "lerna publish --canary --yes --force-publish",
+    "release:rc": "lerna publish prerelease --pre-dist-tag=rc --preid=rc --message=\"chore(release): Publish rc\"",
     "release:preminor": "lerna publish preminor --pre-dist-tag=next --preid=next --force-publish --message=\"chore(release): Publish next pre-minor\"",
     "release:premajor": "lerna publish premajor --pre-dist-tag=next --preid=next --force-publish --message=\"chore(release): Publish next pre-minor\"",
-    "publish-next": "lerna publish prerelease --pre-dist-tag=next --preid=next --allow-branch=master --message=\"chore(release): Publish next\"",
-    "publish-rc": "lerna publish prerelease --pre-dist-tag=rc --preid=rc --message=\"chore(release): Publish rc\"",
+    "release:next": "lerna publish prerelease --pre-dist-tag=next --preid=next --allow-branch=master --message=\"chore(release): Publish next\"",
     "commit": "git cz",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "format": "prettier --write packages/**/*/*.{js,jsx,ts,tsx}"
