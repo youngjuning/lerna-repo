@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-next.0](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-1@1.0.0-rc.0...@youngjuning/module-1@1.1.0-next.0) (2020-11-19)
+
+**Note:** Version bump only for package @youngjuning/module-1
+
 # [1.0.0-rc.0](https://github.com/youngjuning/lerna-repo/compare/@youngjuning/module-1@1.0.0-next.1...@youngjuning/module-1@1.0.0-rc.0) (2020-11-19)
 
 **Note:** Version bump only for package @youngjuning/module-1
