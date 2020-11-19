@@ -5,10 +5,10 @@
     "packages/*"
   ],
   "scripts": {
-    "release:canary": "lerna publish --canary --yes --force-publish",
+    "release:beta": "lerna publish --canary --yes --force-publish",
     "release:rc": "lerna publish prerelease --pre-dist-tag=rc --preid=rc --message=\"chore(release): Publish rc\"",
-    "release:preminor": "lerna publish preminor --pre-dist-tag=next --preid=next --force-publish --message=\"chore(release): Publish next pre-minor\"",
-    "release:premajor": "lerna publish premajor --pre-dist-tag=next --preid=next --force-publish --message=\"chore(release): Publish next pre-minor\"",
+    "release:preminor": "lerna publish preminor --pre-dist-tag=next --preid=next --force-publish\"",
+    "release:premajor": "lerna publish premajor --pre-dist-tag=next --preid=next --force-publish\"",
     "release:next": "lerna publish prerelease --pre-dist-tag=next --preid=next --allow-branch=master --message=\"chore(release): Publish next\"",
     "commit": "git cz",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",

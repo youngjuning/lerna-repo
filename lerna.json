@@ -6,7 +6,8 @@
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
-      "registry": "http://localhost:4873"
+      "registry": "http://localhost:4873",
+      "preid": "beta"
     },
     "version": {
       "conventionalCommits": true,
