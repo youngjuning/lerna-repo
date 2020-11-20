@@ -5,7 +5,7 @@
     "packages/*"
   ],
   "scripts": {
-    "release:canary": "lerna publish --canary --yes --preid",
+    "release:canary": "lerna publish --canary --yes",
     "release:pre": "lerna publish prerelease --pre-dist-tag=next --preid=next",
     "release:prepatch": "lerna publish prepatch --pre-dist-tag=next --preid=next",
     "release:preminor": "lerna publish preminor --pre-dist-tag=next --preid=next",
