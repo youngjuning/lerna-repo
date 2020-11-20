@@ -6,9 +6,7 @@
   "command": {
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
-      "registry": "http://localhost:4873"
-    },
-    "version": {
+      "registry": "http://localhost:4873",
       "conventionalCommits": true,
       "allowBranch": ["main", "master"],
       "message": "chore(release): publish"
