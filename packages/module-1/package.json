@@ -21,7 +21,7 @@
     "url": "git+https://github.com/youngjuning/lerna-repo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "echo building module-1"
   },
   "bugs": {
     "url": "https://github.com/youngjuning/lerna-repo/issues"
